@@ -3,12 +3,7 @@ layout: default
 title: "Home"
 ---
       
-      <span style="color:#777; font-size:0.85rem; margin-left:0.5rem;">(Updated August 2026)</span>
-    </p>
-  </div>
-</div>
 
-  
 
 <hr style="width:60%; border:1px solid #333; margin:1.5rem auto;">
 I study 123
