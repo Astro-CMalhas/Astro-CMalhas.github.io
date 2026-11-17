@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 
 // Both designs live in this project. To ship only one, keep just that
 // name in this list (for example ['aero']). The toggle button hides itself.
-export const THEMES = ['regular','aero];
+export const THEMES = ['regular','aero'];
 
 const STORAGE_KEY = 'site-theme';
 const ThemeContext = createContext(null);
