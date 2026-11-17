@@ -1,0 +1,100 @@
+/* Demo 2: "Frutiger Aero". Glossy aqua buttons, glass panels, sky and grass
+   gradients with light bubbles, and rounder corners, as in the Vista-era look.
+   Applies only when <html data-theme="aero"> is set. */
+:root[data-theme='aero'] {
+  --bg: #7fd0f7;
+  --bg-image:
+    radial-gradient(circle at 14% 16%, rgba(255, 255, 255, 0.95) 0 3%, rgba(255, 255, 255, 0.35) 5%, transparent 9%),
+    radial-gradient(circle at 86% 10%, rgba(255, 255, 255, 0.9) 0 2%, rgba(255, 255, 255, 0.3) 4%, transparent 7%),
+    radial-gradient(circle at 78% 58%, rgba(255, 255, 255, 0.55) 0 5%, rgba(255, 255, 255, 0.15) 8%, transparent 12%),
+    radial-gradient(circle at 24% 72%, rgba(255, 255, 255, 0.45) 0 4%, transparent 8%),
+    linear-gradient(180deg, #1c86c9 0%, #5cbef0 28%, #a9e6ff 56%, #d8f6ff 68%, #8fd96b 84%, #4fae3a 100%);
+
+  --surface: linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(240, 251, 255, 0.8) 48%, rgba(222, 246, 255, 0.74) 52%, rgba(245, 253, 255, 0.88) 100%);
+  --surface-2: linear-gradient(180deg, rgba(255, 255, 255, 0.85), rgba(230, 248, 255, 0.72));
+  --border: rgba(255, 255, 255, 0.95);
+  --shadow: 0 6px 18px rgba(0, 55, 105, 0.22), inset 0 1px 0 #ffffff;
+
+  --text: #0d2e4a;
+  --text-muted: #3c6683;
+  --accent: #1a7fc4;
+  --accent-ink: #ffffff;
+  --stat: #0a6cb8;
+  --positive: #3e9e24;
+  --focus: #ffd34d;
+
+  --nav-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(205, 240, 255, 0.85));
+  --active-bg: linear-gradient(180deg, #e3f7ff 0%, #8ad9f8 48%, #47bdef 52%, #9fe6ff 100%);
+  --active-text: #05385f;
+  --hover: rgba(255, 255, 255, 0.6);
+
+  --btn-bg: linear-gradient(180deg, #ffffff 0%, #dff5ff 46%, #9adcf7 50%, #cbeeff 100%);
+  --btn-text: #06385c;
+  --btn-border: #3e9fd6;
+  --btn-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 2px 5px rgba(0, 60, 110, 0.28);
+  --btn-primary-bg: linear-gradient(180deg, #a5e6ff 0%, #41b6ee 47%, #1e96d8 53%, #5ccbf7 100%);
+  --btn-primary-text: #ffffff;
+  --btn-primary-border: #1b7fbf;
+  --radius-btn: 9px;
+
+  --track: rgba(10, 80, 130, 0.18);
+  --thumb: radial-gradient(circle at 35% 30%, #ffffff 0%, #bdeeff 42%, #3aa8e6 100%);
+  --thumb-shadow: 0 2px 4px rgba(0, 50, 100, 0.35);
+  --input-bg: rgba(255, 255, 255, 0.92);
+
+  --grid: rgba(20, 90, 140, 0.12);
+  --axis: rgba(10, 80, 130, 0.45);
+  --point: #1a8fd8;
+  --point-stroke: #ffffff;
+  --point-off: rgba(120, 160, 190, 0.45);
+  --point-err: #14659e;
+
+  --tag-bg: linear-gradient(180deg, #e2ffd0, #a6e87d);
+  --tag-text: #1f5b10;
+  --code-bg: linear-gradient(180deg, #0f4a73, #0a3555);
+  --code-text: #e6f6ff;
+
+  --radius: 14px;
+  --radius-sm: 9px;
+
+  --font-body: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Myriad Pro', 'Trebuchet MS', Tahoma, sans-serif;
+  --font-display: 'Trebuchet MS', 'Segoe UI', Frutiger, Tahoma, sans-serif;
+  --font-mono: Consolas, 'Lucida Console', monospace;
+}
+
+:root[data-theme='aero'] h1,
+:root[data-theme='aero'] h2,
+:root[data-theme='aero'] .brand {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+:root[data-theme='aero'] .card {
+  backdrop-filter: blur(10px) saturate(130%);
+  -webkit-backdrop-filter: blur(10px) saturate(130%);
+}
+
+:root[data-theme='aero'] .header {
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  box-shadow: 0 2px 8px rgba(0, 60, 110, 0.25);
+}
+
+:root[data-theme='aero'] .stat-value {
+  text-shadow: 0 1px 0 #ffffff;
+}
+
+:root[data-theme='aero'] .btn {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+:root[data-theme='aero'] .btn-primary {
+  text-shadow: 0 1px 1px rgba(0, 40, 80, 0.35);
+}
+
+:root[data-theme='aero'] .nav-link.active {
+  box-shadow: inset 0 1px 0 #ffffff;
+}
+
+:root[data-theme='aero'] .footer {
+  background: rgba(255, 255, 255, 0.35);
+}

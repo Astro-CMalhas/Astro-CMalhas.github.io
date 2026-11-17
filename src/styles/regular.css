@@ -1,0 +1,58 @@
+/* Demo 1: "Regular". A clean dashboard look taken from the payroll screenshot:
+   white cards on a cool gray canvas, blue headline numbers, green and yellow
+   status accents. Set on :root, so it is the default. */
+:root {
+  --bg: #eef2f6;
+  --bg-image: none;
+
+  --surface: #ffffff;
+  --surface-2: #f7f9fb;
+  --border: #dde4ec;
+  --shadow: 0 1px 2px rgba(16, 30, 50, 0.06), 0 2px 8px rgba(16, 30, 50, 0.04);
+
+  --text: #1d2a3a;
+  --text-muted: #5d6c7e;
+  --accent: #1f6fb2;
+  --accent-ink: #ffffff;
+  --stat: #1f6fb2;
+  --positive: #3f9b4a;
+  --focus: #e7b416;
+
+  --nav-bg: #ffffff;
+  --active-bg: #e4eefa;
+  --active-text: #1f6fb2;
+  --hover: #f0f4f8;
+
+  --btn-bg: #ffffff;
+  --btn-text: #1d2a3a;
+  --btn-border: #c9d4e0;
+  --btn-shadow: none;
+  --btn-primary-bg: #1f6fb2;
+  --btn-primary-text: #ffffff;
+  --btn-primary-border: #1f6fb2;
+  --radius-btn: 6px;
+
+  --track: #dde4ec;
+  --thumb: #ffffff;
+  --thumb-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --input-bg: #ffffff;
+
+  --grid: #e8edf3;
+  --axis: #aab6c4;
+  --point: #1f6fb2;
+  --point-stroke: #ffffff;
+  --point-off: #c3ccd7;
+  --point-err: #5d86ad;
+
+  --tag-bg: #e6f3e9;
+  --tag-text: #2b6b38;
+  --code-bg: #111c2b;
+  --code-text: #d7e3f1;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+
+  --font-body: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace;
+}
